@@ -19,7 +19,7 @@
   margin: 0 0 32px;
 }
 .form_container {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 3rem;
   h2 {
     text-align: center;
@@ -29,12 +29,14 @@
     margin: 5px 0;
     padding: 15px;
     font-size: 18px;
+    border-radius: 5px;
   }
   textarea {
     width: 100%;
     margin: 5px 0;
     padding: 15px;
     font-size: 18px;
+    border-radius: 5px;
   }
 }
 .input {
@@ -46,14 +48,15 @@
   border: none;
 }
 .form_button {
-  background-color: #13b682;
+  background-image: linear-gradient(to right, #002868, #bf0a30);
   padding: 13px 40px;
   color: white;
-  border: 2px solid #2ec092;
+  border: none;
   font-size: 18px;
   width: 100%;
+  border-radius: 5px;
   &:hover {
-    background-color: #11a173;
+    background-image: linear-gradient(to left, #002868, #bf0a30);
     transition: 0.5s;
     cursor: pointer;
   }

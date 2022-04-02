@@ -21,13 +21,13 @@ const Banner = () => {
           </h2>
           <form action="#" onSubmit={handleSubmit}>
             <div>
-              <input className={`${styles.input}`} type="text" placeholder="*Name" required />
+              <input className={`${styles.input}`} type="text" placeholder="Name*" required />
             </div>
             <div>
-              <input className={`${styles.input}`} required type="email" placeholder="*Email" />
+              <input className={`${styles.input}`} required type="email" placeholder="Email*" />
             </div>
             <div>
-              <textarea className={`${styles.textarea}`} required name="desc" cols="30" rows="5" placeholder="*Describe your idea"></textarea>
+              <textarea className={`${styles.textarea}`} required name="desc" cols="30" rows="5" placeholder="Describe your idea*"></textarea>
             </div>
             <button type="submit" className={styles.form_button}>
               Get a FREE Quote

@@ -28,6 +28,7 @@
     margin: 10px 0;
   }
 }
+
 .card_top {
   display: flex;
   justify-content: flex-start;
@@ -75,5 +76,40 @@
   .container_services {
     background-color: #fafafa;
     margin: 0 0 0 0;
+  }
+}
+
+//
+/* From cssbuttons.io */
+.card {
+  --color: #11a173;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.5s;
+  z-index: 1;
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: linear-gradient(to right, #002868, #bf0a31e4);
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+    padding: 15px;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      top: -30px;
+      left: -30px;
+    }
+  }
+  &:active {
+    &:before {
+      background: #3a0ca3;
+      transition: background 0s;
+    }
   }
 }
