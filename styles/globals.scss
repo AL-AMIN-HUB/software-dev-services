@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
-
-html,
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap";
+html {
+  font-family: "Roboto", sans-serif;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
-
 a {
   color: inherit;
   text-decoration: none;
@@ -12,7 +12,6 @@ a {
 li {
   list-style: none;
 }
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -28,23 +27,18 @@ li {
   width: 100%;
   margin: 0 auto;
 }
-
 .primary_color {
   color: #11a173;
 }
-
 .primary_bg {
   background-color: #11a173;
 }
-
 .secondary_color {
   color: #1e1e1f;
 }
-
 .secondary_bg {
   background-color: #1e1e1f;
 }
-
 .custom_text_color1 {
   color: white;
 }

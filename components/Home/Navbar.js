@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import React from "react";
-import styles from "../../styles/Navbar.module.css";
+import styles from "../../styles/Navbar.module.scss";
 
 const Navbar = () => {
   return (

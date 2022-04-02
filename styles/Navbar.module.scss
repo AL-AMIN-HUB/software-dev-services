@@ -1,16 +1,16 @@
 .top_navbar {
   margin: 0 1em;
 }
-
 .top_number_email {
   padding: 12px 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
-
-.top_number_email p:hover {
-  color: #fff;
-  cursor: pointer;
-  transition: 0.5s;
+  p {
+    &:hover {
+      color: #fff;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+  }
 }

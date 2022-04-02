@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Custom software development",
+    "img": "https://i.ibb.co/9G83t2v/Screenshot-2.png",
+    "desc": "We convert your idea into solid, safe, and reliable custom software with our full-cycle software development services, including:",
+    "type": ["Web app solution", "Mobile app solutions", "UI / UX"]
+  },
+  {
+    "id": 2,
+    "title": "Mobile App Development Services",
+    "img": "https://i.ibb.co/DtFNNbW/Screenshot-3.png",
+    "desc": "Our team can provide support at any stage of custom mobile app development, from creating a proof-of-concept app to an MVP:",
+    "type": ["Cross-platform apps for iOS and Android", "Native apps development", "Hybrid and mobile web "]
+  },
+  {
+    "id": 3,
+    "title": "Offshore Software Development",
+    "img": "https://i.ibb.co/7RZhLjT/Screenshot-4.png",
+    "desc": "We convert your idea into solid, safe, and reliable custom software with our full-cycle software development services, including:",
+    "type": ["On-time delivery", "Flexible pricingn", " A dedicated team"]
+  },
+  {
+    "id": 4,
+    "title": "Enterprise Software Development",
+    "img": "https://i.ibb.co/h7ngQy9/Screenshot-5.png",
+    "desc": "We create business software solutions to solve workflow issues that enterprises often face, including:",
+    "type": ["Integration of advanced technology apps", "Production process automation", "Business process management"]
+  },
+  {
+    "id": 5,
+    "title": "IT Consulting",
+    "img": "https://i.ibb.co/PNZy0SP/Screenshot-6.png",
+    "desc": "Our team covers all IT strategies and provides IT consulting services that help optimize your business and make it grow:",
+    "type": ["System integration", "Data analytics", "Internet of Things"]
+  },
+  {
+    "id": 6,
+    "title": "Software Integration",
+    "img": "https://i.ibb.co/SRSzSVP/Screenshot-7.png",
+    "desc": "We connect IT systems, microservices & migrate data, including cloud-based data, from one database to another by providing:",
+    "type": ["Data integration", "API integration", "Service-oriented architecture (SOA)"]
+  }
+]
