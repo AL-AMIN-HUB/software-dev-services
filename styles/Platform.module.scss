@@ -1,0 +1,35 @@
+.main_services_container {
+  padding: 0 0 100px 0;
+}
+.head_content {
+  font-size: 2.5rem;
+  margin: 0 0 32px;
+}
+.content_text {
+  text-align: center;
+}
+.text_content {
+  color: rgba(0, 0, 0, 0.775);
+  font-size: 18px;
+  line-height: 30px;
+}
+.platform {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  box-shadow: -2px 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 50px 0;
+}
+.platform_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+@media only screen and (max-width: 768px) {
+  .head_content {
+    font-size: 2rem;
+    margin: 0 0 32px;
+  }
+}

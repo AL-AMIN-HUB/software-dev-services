@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Banner from "../components/Home/Banner";
 import Navbar from "../components/Home/Navbar";
+import Platform from "../components/Home/Platform";
 import Services from "../components/Home/Services";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       </header>
       <main>
         <Services />
+        <Platform />
       </main>
 
       <footer></footer>
