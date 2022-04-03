@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Mobile Development",
+    "tech": ["iOS", "Android", "React Native", "Flutter"],
+    "img": "https://i.ibb.co/fGZshS8/Screenshot-8-removebg-preview.png"
+  },
+  {
+    "id": 2,
+    "name": "Web Platform",
+    "tech": ["NodeJS", "Angular", "React.js", "Vue.js", "Spring MVC", "ASP.NET", "Nest.js", "ASP.NET Core"],
+    "img": "https://i.ibb.co/fGZshS8/Screenshot-8-removebg-preview.png"
+  },
+  {
+    "id": 3,
+    "name": "Programming Languages",
+    "tech": ["Swift", "C#", "Java", " PHP", "Kotlin", "Objective-C", "Typescript"],
+    "img": "https://i.ibb.co/fGZshS8/Screenshot-8-removebg-preview.png"
+  },
+  {
+    "id": 4,
+    "name": "Technologies",
+    "tech": ["REST", "JavaEE", "AR/VR", "Unity 3D", "Spring", "GraphQL", "JPA/Hibernate", "QT.NET"],
+    "img": "https://i.ibb.co/fGZshS8/Screenshot-8-removebg-preview.png"
+  }
+]
