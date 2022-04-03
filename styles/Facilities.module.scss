@@ -94,4 +94,27 @@
     font-size: 25px;
     margin: 0 0 32px;
   }
+  .grid_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    margin: 30px 10px;
+  }
+  .main_div {
+    &:hover {
+      img {
+        background-image: linear-gradient(to right, #fff, #fff);
+        border-radius: 10px;
+      }
+      &::before {
+        height: 410px;
+        width: 520px;
+      }
+      &::after {
+        height: 410px;
+        width: 520px;
+      }
+      color: white;
+    }
+  }
 }

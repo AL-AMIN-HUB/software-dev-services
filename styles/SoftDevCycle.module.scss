@@ -1,0 +1,28 @@
+.main_cycle_container {
+  padding: 50px 0;
+  text-align: center;
+  cursor: pointer;
+}
+.head_content {
+  font-size: 38px;
+  margin: 0 0 32px;
+}
+.text_content {
+  color: rgba(0, 0, 0, 0.775);
+  font-size: 18px;
+  line-height: 30px;
+}
+.content_text {
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .head_content {
+    font-size: 25px;
+    margin: 0 0 32px;
+  }
+  .main_cycle_container {
+    img {
+      width: 85%;
+    }
+  }
+}

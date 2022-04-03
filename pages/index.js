@@ -1,10 +1,12 @@
 import Head from "next/head";
 import Banner from "../components/Home/Banner";
+import ChooseUs from "../components/Home/ChooseUs";
 import ContactBanner from "../components/Home/ContactBanner";
 import Facilities from "../components/Home/Facilities";
 import Navbar from "../components/Home/Navbar";
 import Platform from "../components/Home/Platform";
 import Services from "../components/Home/Services";
+import SoftDevCycle from "../components/Home/SoftDevCycle";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
         <Platform />
         <ContactBanner />
         <Facilities />
+        <SoftDevCycle />
+        <ChooseUs />
       </main>
 
       <footer></footer>
