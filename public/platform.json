@@ -9,13 +9,13 @@
     "id": 2,
     "name": "Web Platform",
     "tech": ["NodeJS", "Angular", "React.js", "Vue.js", "Spring MVC", "ASP.NET", "Nest.js", "ASP.NET Core"],
-    "img": "https://i.ibb.co/fGZshS8/Screenshot-8-removebg-preview.png"
+    "img": "https://i.ibb.co/163NTyy/Screenshot-9-removebg-preview.png"
   },
   {
     "id": 3,
     "name": "Programming Languages",
     "tech": ["Swift", "C#", "Java", " PHP", "Kotlin", "Objective-C", "Typescript"],
-    "img": "https://i.ibb.co/fGZshS8/Screenshot-8-removebg-preview.png"
+    "img": "https://i.ibb.co/yRZJh9M/Screenshot-10-removebg-preview.png"
   },
   {
     "id": 4,

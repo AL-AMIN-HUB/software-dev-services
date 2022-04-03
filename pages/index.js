@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Banner from "../components/Home/Banner";
+import ContactBanner from "../components/Home/ContactBanner";
+import Facilities from "../components/Home/Facilities";
 import Navbar from "../components/Home/Navbar";
 import Platform from "../components/Home/Platform";
 import Services from "../components/Home/Services";
@@ -20,6 +22,8 @@ export default function Home() {
       <main>
         <Services />
         <Platform />
+        <ContactBanner />
+        <Facilities />
       </main>
 
       <footer></footer>

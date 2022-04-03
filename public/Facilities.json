@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "FinTech",
+    "img": "https://i.ibb.co/k5JmFjk/Screenshot-1-removebg-preview-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Game Development",
+    "img": "https://i.ibb.co/nQdjKSX/Screenshot-4-removebg-preview-1.png"
+  },
+  {
+    "id": 3,
+    "name": "Travel & Hospitality",
+    "img": "https://i.ibb.co/tCvW4Sb/Screenshot-6-removebg-preview-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Media & Environment",
+    "img": "https://i.ibb.co/XpzbqJr/Screenshot-2-removebg-preview-1.png"
+  },
+  {
+    "id": 5,
+    "name": "Sport",
+    "img": "https://i.ibb.co/R6VFMn6/Screenshot-5-removebg-preview-1.png"
+  },
+  {
+    "id": 6,
+    "name": "Logistics",
+    "img": "https://i.ibb.co/hW6X25j/Screenshot-7-removebg-preview-1.png"
+  },
+  {
+    "id": 7,
+    "name": "Retail",
+    "img": "https://i.ibb.co/7QB8xnd/Screenshot-3-removebg-preview-1.png"
+  },
+  {
+    "id": 8,
+    "name": "MedTech",
+    "img": "https://i.ibb.co/T8N8NvR/Screenshot-9-removebg-preview-1.png"
+  },
+  {
+    "id": 9,
+    "name": "Education",
+    "img": "https://i.ibb.co/fC1vNyS/Screenshot-8-removebg-preview-1.png"
+  }
+]

@@ -5,7 +5,7 @@ import styles from "../../styles/Platform.module.scss";
 const Platform = () => {
   const [technologies, setTechnologies] = useState([]);
   useEffect(() => {
-    fetch("https://mocki.io/v1/93d7a05b-c152-4e9b-9206-f142ac9f37a4")
+    fetch("https://mocki.io/v1/3f46b6b7-9ec5-42ee-a1f8-563dfd04bccd")
       .then((res) => res.json())
       .then((data) => setTechnologies(data));
   }, []);
@@ -24,8 +24,8 @@ const Platform = () => {
           {technologies.map((tech) => (
             <div key={tech.id} className={`${styles.platform}`}>
               <div className={`${styles.platform_content}`}>
-                <div>
-                  <img src="https://i.ibb.co/fGZshS8/Screenshot-8-removebg-preview.png" alt="" />
+                <div style={{ marginRight: "20px" }}>
+                  <img src={tech.img} alt="" />
                 </div>
                 <div>
                   <h2>{tech?.name}</h2>
