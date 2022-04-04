@@ -5,7 +5,7 @@ import styles from "../../styles/Facilities.module.scss";
 const Facilities = () => {
   const [facilities, seFacilities] = useState([]);
   useEffect(() => {
-    fetch("https://mocki.io/v1/f18df84a-882e-4f5a-bf04-5ff47e89fe74")
+    fetch("https://mocki.io/v1/3f49a64e-7ced-4f4b-acfa-4c1ad84cc52e")
       .then((res) => res.json())
       .then((data) => seFacilities(data));
   }, []);

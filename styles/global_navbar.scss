@@ -1,21 +1,20 @@
 /* NAVBAR STYLING STARTS */
-/* LOGO */
-/* NAVBAR MENU */
-/* DROPDOWN MENU */
-/* 
- */
-/*RESPONSIVE NAVBAR MENU STARTS*/
-/* CHECKBOX HACK */
-/*HAMBURGER MENU*/
-/* APPLYING MEDIA QUERIES */
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
   background-color: #fff;
   color: #1e1e1f;
   cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: 0.5s;
+}
+.navbar_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
 }
 .nav-links {
   a {
@@ -74,7 +73,7 @@
   }
 }
 .btn_navbar {
-  padding: 11px 40px;
+  padding: 15px 40px;
   color: white;
   font-size: 18px;
   border-radius: 5px;
