@@ -18,7 +18,7 @@ const ChooseUs = () => {
           <div>
             <h2>600+</h2>
           </div>
-          <div>
+          <div className={styles.grid_footer}>
             <p>released projects</p>
           </div>
         </div>
@@ -26,7 +26,7 @@ const ChooseUs = () => {
           <div>
             <h2>40</h2>
           </div>
-          <div>
+          <div className={styles.grid_footer}>
             <p>countries (including the USA, UK, Netherlands, Australia, Switzerland, Austria, Norway)</p>
           </div>
         </div>
@@ -34,7 +34,7 @@ const ChooseUs = () => {
           <div>
             <h2>15</h2>
           </div>
-          <div>
+          <div className={styles.grid_footer}>
             <p>years in development</p>
           </div>
         </div>
@@ -42,7 +42,7 @@ const ChooseUs = () => {
           <div>
             <img src="https://i.ibb.co/cczWP2G/1-1.webp" alt="" />
           </div>
-          <div>
+          <div className={styles.grid_footer}>
             <p>VironIT is in the Top1 outsourcing software development companies according to desighrush.</p>
           </div>
         </div>
@@ -50,7 +50,7 @@ const ChooseUs = () => {
           <div>
             <img src="https://i.ibb.co/dQxJJx0/1-3.webp" alt="" />
           </div>
-          <div>
+          <div className={styles.grid_footer}>
             <p>We are on a list of Top 50 Mobile App Development Companies in 2021 on SoftwareWorld.</p>
           </div>
         </div>
@@ -58,7 +58,7 @@ const ChooseUs = () => {
           <div>
             <img src="https://i.ibb.co/KhH4yTh/1-2.webp" alt="" />
           </div>
-          <div>
+          <div className={styles.grid_footer}>
             <p>Feedspot.com included our corporate blog in its Top 50 software development blogs in the world.</p>
           </div>
         </div>

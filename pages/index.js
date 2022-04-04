@@ -3,6 +3,7 @@ import Banner from "../components/Home/Banner";
 import ChooseUs from "../components/Home/ChooseUs";
 import ContactBanner from "../components/Home/ContactBanner";
 import Facilities from "../components/Home/Facilities";
+import Footer from "../components/Home/Footer";
 import Navbar from "../components/Home/Navbar";
 import Platform from "../components/Home/Platform";
 import Services from "../components/Home/Services";
@@ -30,7 +31,9 @@ export default function Home() {
         <ChooseUs />
       </main>
 
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

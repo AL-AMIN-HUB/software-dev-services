@@ -27,14 +27,14 @@
   input {
     width: 100%;
     margin: 5px 0;
-    padding: 20px;
+    padding: 18px;
     font-size: 18px;
     border-radius: 5px;
   }
   textarea {
     width: 100%;
     margin: 5px 0;
-    padding: 20px;
+    padding: 18px;
     font-size: 18px;
     border-radius: 5px;
   }
@@ -49,12 +49,13 @@
 }
 .form_button {
   background-image: linear-gradient(to right, #002868, #bf0a30);
-  padding: 20px 40px;
+  padding: 18px 40px;
   color: white;
   border: none;
   font-size: 18px;
   width: 100%;
   border-radius: 5px;
+  font-weight: bold;
   &:hover {
     background-image: linear-gradient(to left, #002868, #bf0a30);
     transition: 0.5s;
