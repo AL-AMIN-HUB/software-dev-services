@@ -21,14 +21,18 @@ const Footer = () => {
         </div>
         <div className="col_footer">
           <h3>
-            Office{" "}
+            Business areas
             <div className="underline">
               <span></span>
             </div>
           </h3>
-          <p>ITPL Road</p>
-          <p>Home Office, California</p>
-          <p>California, PIN 5623565, USA</p>
+          <p> Mobile Application Development</p>
+          <p>Web Application Development</p>
+          <p>Business Application Development</p>
+          <p>VR/AR Application Development</p>
+          <p>Blockchain Development</p>
+          <p>IoT Software Development</p>
+
           <p className="email_id"> Info@Ts4u.Us</p>
           <h4> +(1) 586-276-7347</h4>
         </div>

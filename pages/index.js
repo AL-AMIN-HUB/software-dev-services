@@ -8,6 +8,7 @@ import Navbar from "../components/Home/Navbar";
 import Platform from "../components/Home/Platform";
 import Services from "../components/Home/Services";
 import SoftDevCycle from "../components/Home/SoftDevCycle";
+import Testimonials from "../components/Home/Testimonials";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <Facilities />
         <SoftDevCycle />
         <ChooseUs />
+        <Testimonials />
       </main>
 
       <footer>
