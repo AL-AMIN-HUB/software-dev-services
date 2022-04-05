@@ -26,8 +26,8 @@ export default function Home() {
       <main>
         <Services />
         <Platform />
-        <ContactBanner />
         <Facilities />
+        <ContactBanner />
         <SoftDevCycle />
         <ChooseUs />
         <Testimonials />
