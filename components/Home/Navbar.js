@@ -119,11 +119,11 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </li>
+                <li>
+                  <button className="primary_bg btn_navbar">HIRE US</button>
+                </li>
               </div>
             </ul>
-            <div>
-              <button className="primary_bg btn_navbar">HIRE US</button>
-            </div>
           </div>
         </nav>
       </section>
