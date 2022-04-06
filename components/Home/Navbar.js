@@ -58,7 +58,7 @@ const Navbar = () => {
 
                   <ul className="dropdown">
                     <li>
-                      <a href="/">Dropdown 1 </a>
+                      <a href="/learning-path">Learning</a>
                     </li>
                     <li>
                       <a href="/">Dropdown 2</a>
