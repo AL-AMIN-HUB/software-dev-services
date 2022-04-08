@@ -61,7 +61,7 @@ const Navbar = () => {
                       <a href="/learning-path">Learning</a>
                     </li>
                     <li>
-                      <a href="/">Dropdown 2</a>
+                      <a href="/web_developer">Web Developer</a>
                     </li>
                     <li>
                       <a href="/">Dropdown 2</a>

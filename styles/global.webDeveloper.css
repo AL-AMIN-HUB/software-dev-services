@@ -1,0 +1,39 @@
+.custom_bg {
+  background-color: #02a27a;
+}
+.container_fluid_webDeveloper {
+  max-width: 1424px;
+  width: 100%;
+  margin-left: auto;
+}
+.header_btn {
+  padding: 18px 46px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.header_btn:hover {
+  background-color: #01533e;
+  cursor: pointer;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_content_main {
+  font-size: 42px;
+  margin: 0 0 25px;
+}
+
+.header_desc {
+  font-size: 18px;
+  margin: 0 0 25px;
+  color: grey;
+}

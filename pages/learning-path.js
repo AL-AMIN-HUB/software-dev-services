@@ -6,7 +6,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 const learning = () => {
   return (
-    <section>
+    <section className="section_path">
       <div className="main_container">
         <div className="container_fluid learningPath_main">
           <div className="col_learning1">
