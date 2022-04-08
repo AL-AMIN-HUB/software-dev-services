@@ -15,8 +15,19 @@
   font-size: 18px;
   transition: 0.5s;
 }
+.path_btn {
+  padding: 12px 40px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: 0.5s;
+  margin-top: 10px;
+}
 
-.header_btn:hover {
+.header_btn:hover,
+.path_btn:hover {
   background-color: #01533e;
   cursor: pointer;
 }
@@ -36,4 +47,108 @@
   font-size: 18px;
   margin: 0 0 25px;
   color: grey;
+}
+
+/* how to become a web developer part design here */
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 100px;
+}
+.row_title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #29303b;
+  margin: 0 0 25px;
+}
+
+.large {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #29303baa;
+}
+
+.first_column {
+  padding: 0 40px 0 0;
+  text-align: justify;
+  border-right: 1px solid lightgrey;
+}
+
+.second_column {
+  padding: 0 0 0 60px;
+}
+
+/* benefits */
+
+.benefits_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 15px;
+}
+
+.items_icon {
+  margin-right: 30px;
+  border: 1px solid lightgrey;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.item_title {
+  font-size: 25px;
+  margin: 0 0 15px;
+}
+
+.small_content {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #29303baa;
+}
+
+/* learning path design */
+.learning_path_main {
+  padding: 100px;
+  background-color: #f5f6fb;
+}
+
+.learning_path_title {
+  font-size: 24px;
+  font-weight: 500;
+}
+.learning_sub_title {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(128, 128, 128, 0.701);
+}
+
+.learning_path {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  grid-gap: 20px;
+}
+
+.icon_path {
+  position: relative;
+  top: 2.5px;
+  color: #02a27a;
+}
+
+.sub_path {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.sub_path img {
+  width: 150px;
+  height: 30px;
+}
+
+.learning_path_inside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px 0 0;
 }
