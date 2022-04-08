@@ -260,7 +260,7 @@ const learning = () => {
               </div>
             </div>
             <h3 style={{ color: "orange" }}>3 STEP</h3>
-            <h2 style={{ color: "white", fontSize: "32px", margin: "1em 0" }}>ADVANCED</h2>
+            <h2 style={{ fontSize: "32px", margin: "1em 0" }}>ADVANCED</h2>
             <p style={{ color: "#809ECC", fontSize: "18px" }}>
               Stand out among the crowd with the top certifications in the IT industry. Go in-depth with these technologies with our advanced courses
               and mock exams that help you clear your certifications.
