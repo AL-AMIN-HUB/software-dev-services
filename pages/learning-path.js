@@ -29,7 +29,7 @@ const learning = () => {
           </div>
           <div className="col_learning2">
             <div className="col_svg">
-              <div>
+              <div className="svg_line">
                 <img src="https://i.ibb.co/HXZ92XY/path1.png" alt="" />
               </div>
 
@@ -37,10 +37,10 @@ const learning = () => {
                 CONTAINERS
               </button>
             </div>
-            <div className="item_svg3">
+            <div className="item_svg3 svg_line">
               <img src="https://i.ibb.co/vvS6FWv/path2.png" alt="" />
             </div>
-            <div className="item_svg4">
+            <div className="item_svg4 svg_line">
               <img src="https://i.ibb.co/D1m4K1J/download.png" alt="" />
             </div>
             <button type="submit" className="btn_learning_path2">
@@ -64,7 +64,7 @@ const learning = () => {
             </div>
           </div>
           <div className="col_learning3">
-            <div className="col_svg2">
+            <div className="col_svg2 svg_line">
               <img src="https://i.ibb.co/MBYz6Xr/path3.png" alt="" />
             </div>
             <div>
@@ -100,16 +100,16 @@ const learning = () => {
               <h4>Git for Beginners</h4>
             </div>
           </div>
-          <div className="path_5">
+          <div className="path_5 svg_line">
             <img src="https://i.ibb.co/BrRsj23/download-2.png" alt="" />
           </div>
-          <div className="path_6">
+          <div className="path_6 svg_line">
             <img src="https://i.ibb.co/SsVv7DV/download-1.png" alt="" />
           </div>
-          <div className="path_7">
+          <div className="path_7 svg_line">
             <img src="https://i.ibb.co/s9k6fhN/download-3.png" alt="" />
           </div>
-          <div className="path_8">
+          <div className="path_8 svg_line">
             <img src="https://i.ibb.co/Gcg4J4V/download-4.png" alt="" />
           </div>
         </div>
@@ -139,10 +139,10 @@ const learning = () => {
                 <h4>Docker for the Absolute Beginners</h4>
               </div>
             </div>
-            <div className="path_svg6">
+            <div className="path_svg6 svg_line">
               <img src="https://i.ibb.co/0jh4kjh/download.png" alt="" />
             </div>
-            <div className="path_svg7">
+            <div className="path_svg7 svg_line">
               <img src="https://i.ibb.co/BzLp6Bx/download-3.png" alt="" />
             </div>
           </div>
@@ -159,7 +159,7 @@ const learning = () => {
                 <h4>Ansible for the Absolute Beginners</h4>
               </div>
             </div>
-            <div className="path_svg8">
+            <div className="path_svg8 svg_line">
               <img src="https://i.ibb.co/GMbRQHd/download-4.png" alt="" />
             </div>
           </div>
@@ -192,7 +192,7 @@ const learning = () => {
                 <h4>Docker - SWARM SERVICES STACK</h4>
               </div>
             </div>
-            <div className="svg_path9">
+            <div className="svg_path9 svg_line">
               <img src="https://i.ibb.co/87Yc4DV/download-2.png" alt="" />
             </div>
           </div>
@@ -209,10 +209,10 @@ const learning = () => {
                 <h4>Kubernetes for the Absolute Beginners - Hands on</h4>
               </div>
             </div>
-            <div className="svg_path10">
+            <div className="svg_path10 svg_line">
               <img src="https://i.ibb.co/Z8WhKDY/download-5.png" alt="" />
             </div>
-            <div className="svg_path11">
+            <div className="svg_path11 svg_line">
               <img src="https://i.ibb.co/BzLp6Bx/download-3.png" alt="" />
             </div>
           </div>
@@ -280,7 +280,7 @@ const learning = () => {
                     <h4>Certified Kubemetes Administrator (CKA) with Practice Tests</h4>
                   </div>
                 </div>
-                <div className="img_path14">
+                <div className="img_path14 svg_line">
                   <img src="https://i.ibb.co/FszPn1B/download.png" alt="" />
                 </div>
               </div>
@@ -300,7 +300,7 @@ const learning = () => {
                     <h4>Certified Kubemetes Application Developer (CKAD)</h4>
                   </div>
                 </div>
-                <div className="img_path15">
+                <div className="img_path15 svg_line">
                   <img src="https://i.ibb.co/0s6wptX/download-7.png" alt="" />
                 </div>
               </div>
