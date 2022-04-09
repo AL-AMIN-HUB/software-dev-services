@@ -11,14 +11,14 @@ const WebDeveloper = () => {
   return (
     <div>
       <header>
-        <div className="main_header  container_fluid_webDeveloper">
+        <div className="main_header  container_fluid_webDeveloper container_main">
           <div>
             <h2 className="header_content_main">Web Developer</h2>
             <p className="header_desc">We've created a learning path so you can spend time learning instead of searching.</p>
             <button className="custom_bg header_btn">See Your Learning Path</button>
           </div>
           <div className="header_img">
-            <img src="https://i.ibb.co/kJZ7Y99/file-233931-Cw-Vuw-FBB4b-Cf1-Um-C.jpg" alt="" />
+            <img style={{ width: "100%", height: "" }} src="https://i.ibb.co/HpwcPss/undraw-Teaching-re-g7e3.png" alt="" />
           </div>
         </div>
       </header>

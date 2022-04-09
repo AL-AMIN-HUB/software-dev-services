@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
@@ -16,7 +17,7 @@ const Developer = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ color: "#000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "#02a27a", color: "#fff" }}
+          iconStyle={{ background: "#062530", color: "#fff" }}
           icon={<RiNumber1 />}
         >
           <h3 className="vertical-timeline-element-title learning_path_title">HTML and CSS: Learn the Basics of Web Development</h3>
@@ -31,7 +32,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>BitDegree Foundation VSI ©</small>
+                  <small>TS4U ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -41,7 +42,7 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 17 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/HCRXjVG/bitdegree-small.png" alt="" />
+                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Introducing Coding for Beginners: an HTML and CSS Online Course</h2>
@@ -57,7 +58,7 @@ const Developer = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ color: "#000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "#02a27a", color: "#fff" }}
+          iconStyle={{ background: "#062530", color: "#fff" }}
           icon={<RiNumber2 />}
         >
           <h3 className="vertical-timeline-element-title learning_path_title">Add Responsive Design to Your Web App</h3>
@@ -72,7 +73,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>BitDegree Foundation VSI ©</small>
+                  <small>TS4U ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -82,7 +83,7 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 17 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/HCRXjVG/bitdegree-small.png" alt="" />
+                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>A Responsive Web Design Course: Find Out How to Create a Responsive Website</h2>
@@ -98,7 +99,7 @@ const Developer = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ color: "#000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "#02a27a", color: "#fff" }}
+          iconStyle={{ background: "#062530", color: "#fff" }}
           icon={<RiNumber3 />}
         >
           <h3 className="vertical-timeline-element-title learning_path_title">Use Bootstrap for Faster Web Development</h3>
@@ -113,7 +114,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>BitDegree Foundation VSI ©</small>
+                  <small>TS4U ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -123,7 +124,7 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 8 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/HCRXjVG/bitdegree-small.png" alt="" />
+                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Bootstrap Tutorial: Learn to Create Dynamic Websites In a Pinch</h2>
@@ -139,7 +140,7 @@ const Developer = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ color: "#000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "#02a27a", color: "#fff" }}
+          iconStyle={{ background: "#062530", color: "#fff" }}
           icon={<RiNumber4 />}
         >
           <h3 className="vertical-timeline-element-title learning_path_title">Adding Interactivity to Your Website With JavaScript</h3>
@@ -154,7 +155,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>BitDegree Foundation VSI ©</small>
+                  <small>TS4U ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -164,7 +165,7 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 94 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/HCRXjVG/bitdegree-small.png" alt="" />
+                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>An Interactive JavaScript Course for Beginners</h2>
@@ -180,7 +181,7 @@ const Developer = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ color: "#000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "#02a27a", color: "#fff" }}
+          iconStyle={{ background: "#062530", color: "#fff" }}
           icon={<RiNumber5 />}
         >
           <h3 className="vertical-timeline-element-title learning_path_title">Expand Standard JavaScript With jQuery</h3>
@@ -195,7 +196,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>BitDegree Foundation VSI ©</small>
+                  <small>TS4U ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -205,7 +206,7 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 17 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/HCRXjVG/bitdegree-small.png" alt="" />
+                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Interactive jQuery Tutorial: Learn jQuery Step-by-Step</h2>
@@ -221,7 +222,7 @@ const Developer = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ color: "#000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "#02a27a", color: "#fff" }}
+          iconStyle={{ background: "#062530", color: "#fff" }}
           icon={<RiNumber6 />}
         >
           <h3 className="vertical-timeline-element-title learning_path_title">
@@ -238,7 +239,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>BitDegree Foundation VSI ©</small>
+                  <small>TS4U ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -249,7 +250,7 @@ const Developer = () => {
                     </small>
                   </p>
 
-                  <img src="https://i.ibb.co/HCRXjVG/bitdegree-small.png" alt="" />
+                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Comprehensive Full Stack Web Development Course for Beginners</h2>
@@ -265,7 +266,7 @@ const Developer = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ color: "#000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "#02a27a", color: "#fff" }}
+          iconStyle={{ background: "#062530", color: "#fff" }}
           icon={<RiNumber7 />}
         >
           <h3 className="vertical-timeline-element-title learning_path_title">Cover All PHP Basics Now!</h3>
@@ -280,7 +281,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>BitDegree Foundation VSI ©</small>
+                  <small>TS4U ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -290,7 +291,7 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 71 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/HCRXjVG/bitdegree-small.png" alt="" />
+                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Learn PHP Online: PHP Basics Explained in an Interactive and Fun Manner</h2>
@@ -306,7 +307,7 @@ const Developer = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ color: "#000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "#02a27a", color: "#fff" }}
+          iconStyle={{ background: "#062530", color: "#fff" }}
           icon={<RiNumber8 />}
         >
           <h3 className="vertical-timeline-element-title learning_path_title">Learn How to Build Blogs With PHP</h3>
@@ -320,7 +321,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>BitDegree Foundation VSI ©</small>
+                  <small>TS4U ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -330,7 +331,7 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 10 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/HCRXjVG/bitdegree-small.png" alt="" />
+                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Bootstrap and PHP Blog Tutorial Step by Step</h2>
@@ -346,7 +347,7 @@ const Developer = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ color: "#000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "#02a27a", color: "#fff" }}
+          iconStyle={{ background: "#062530", color: "#fff" }}
           icon={<RiNumber9 />}
         >
           <h3 className="vertical-timeline-element-title learning_path_title">PHP and Wordpress: Creating Custom Themes</h3>
@@ -360,7 +361,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>BitDegree Foundation VSI ©</small>
+                  <small>TS4U ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -370,7 +371,7 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 17 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/HCRXjVG/bitdegree-small.png" alt="" />
+                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Learn WordPress Development to Create Custom Themes For Yourself and Your Clients!</h2>
@@ -386,7 +387,7 @@ const Developer = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ color: "#000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "#02a27a", color: "#fff" }}
+          iconStyle={{ background: "#062530", color: "#fff" }}
           icon={<AiFillStar />}
         ></VerticalTimelineElement>
       </VerticalTimeline>
@@ -413,7 +414,7 @@ const Developer = () => {
         <div>
           <div className="system_info">
             <div className="icon">
-              <img src="https://i.ibb.co/RT5MB3f/rating.png" alt="" />
+              <img src="https://i.ibb.co/7QW8qPx/rating.png" alt="" />
             </div>
             <div className="system">
               <h3>Best experts for your best experience</h3>
@@ -424,55 +425,55 @@ const Developer = () => {
         <div>
           <div className="system_info">
             <div className="icon">
-              <img src="https://i.ibb.co/RT5MB3f/rating.png" alt="" />
+              <img src="https://i.ibb.co/PGppyy2/testing.png" alt="" />
             </div>
             <div className="system">
-              <h3>Best experts for your best experience</h3>
-              <p>Learn from real experts in their fields who share their knowledge and practical know-how.</p>
+              <h3>Practical tasks for real learning</h3>
+              <p>Find opportunities to practice with code examples, practical tasks, learning missions, etc.</p>
             </div>
           </div>
         </div>
         <div>
           <div className="system_info">
             <div className="icon">
-              <img src="https://i.ibb.co/RT5MB3f/rating.png" alt="" />
+              <img src="https://i.ibb.co/tCTsBv9/network.png" alt="" />
             </div>
             <div className="system">
-              <h3>Best experts for your best experience</h3>
-              <p>Learn from real experts in their fields who share their knowledge and practical know-how.</p>
+              <h3>Tamper-proof certificates</h3>
+              <p>On TS4U, you'll be able to receive a Blockchain certificate that is immune to falsification.</p>
             </div>
           </div>
         </div>
         <div>
           <div className="system_info">
             <div className="icon">
-              <img src="https://i.ibb.co/RT5MB3f/rating.png" alt="" />
+              <img src="https://i.ibb.co/nwzjXPG/ribbon.png" alt="" />
             </div>
             <div className="system">
-              <h3>Best experts for your best experience</h3>
-              <p>Learn from real experts in their fields who share their knowledge and practical know-how.</p>
+              <h3>Receive a course completion certificate</h3>
+              <p>Prove what you’ve learned to anyone who asks, and hang sweet additions to your wall of achievements.</p>
             </div>
           </div>
         </div>
         <div>
           <div className="system_info">
             <div className="icon">
-              <img src="https://i.ibb.co/RT5MB3f/rating.png" alt="" />
+              <img src="https://i.ibb.co/ZBt9t2N/puzzle.png" alt="" />
             </div>
             <div className="system">
-              <h3>Best experts for your best experience</h3>
-              <p>Learn from real experts in their fields who share their knowledge and practical know-how.</p>
+              <h3>Gamified coding courses</h3>
+              <p>Feel even more motivated to get skills for your career with a number of gaming elements!</p>
             </div>
           </div>
         </div>
         <div>
           <div className="system_info">
             <div className="icon">
-              <img src="https://i.ibb.co/RT5MB3f/rating.png" alt="" />
+              <img src="https://i.ibb.co/wYsm57B/briefcase.png" alt="" />
             </div>
             <div className="system">
-              <h3>Best experts for your best experience</h3>
-              <p>Learn from real experts in their fields who share their knowledge and practical know-how.</p>
+              <h3>Get your dream job</h3>
+              <p>Increase your chances to secure a job that you dream of by focusing on the skills that you actually need.</p>
             </div>
           </div>
         </div>
