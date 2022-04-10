@@ -1,15 +1,18 @@
 /* how to become a web developer part design here */
-/* benefits */
+
 /* learning path design */
 /* learning system design */
 .custom_bg {
   background-color: #062530;
 }
+// Setting Custom Container
 .container_fluid_webDeveloper {
   max-width: 1424px;
   width: 100%;
   margin: 0 auto;
 }
+
+// Header button Design
 .header_btn {
   padding: 18px 46px;
   color: #fff;
@@ -24,6 +27,7 @@
   }
 }
 
+// Learning Path Button Design
 .path_btn {
   padding: 12px 40px;
   color: #fff;
@@ -38,6 +42,8 @@
     cursor: pointer;
   }
 }
+
+// header box
 .main_header {
   display: flex;
   justify-content: space-between;
@@ -52,6 +58,8 @@
   margin: 0 0 25px;
   color: grey;
 }
+
+// Using display grid for benefits_items
 .row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -89,6 +97,11 @@
   padding: 12px;
   border-radius: 50%;
 }
+.icon {
+  background: #02a27a14;
+  padding: 15px 17px;
+  border-radius: 50%;
+}
 .item_title {
   font-size: 25px;
   margin: 0 0 15px;
@@ -99,6 +112,8 @@
   font-weight: 300;
   color: #29303baa;
 }
+
+// Started learning_path_main Design
 .learning_path_main {
   padding: 100px;
   background-color: #f5f6fb;
@@ -112,6 +127,10 @@
   font-weight: 300;
   color: rgba(128, 128, 128, 0.701);
 }
+.span {
+  color: #02a27a;
+  font-weight: 700;
+}
 .learning_path {
   display: grid;
   grid-template-columns: 0.5fr 2fr;
@@ -122,17 +141,11 @@
   top: 2.5px;
   color: #02a27a;
 }
+
 .sub_path {
   display: flex;
   justify-content: center;
   align-items: center;
-  img {
-    width: 50%;
-    height: 30px;
-    background: #000;
-    border-radius: 5px;
-    margin-left: 5px;
-  }
 }
 .learning_path_inside {
   display: flex;
@@ -154,7 +167,7 @@
     font-size: 16px;
     margin: 10px 0 10px 0;
     small {
-      color: grey;
+      color: rgb(101, 101, 101);
     }
   }
   img {
@@ -163,6 +176,8 @@
     margin: 0 auto;
   }
 }
+
+// learning card
 .learning_system {
   max-width: 980px;
   padding: 100px 0;
@@ -188,6 +203,10 @@
     margin: 0 0 15px;
   }
 }
+
+/* ----------------------------------------------
+Responsive for Mobile Device : Max-width(768px)
+--------------------------------------------------*/
 @media only screen and (max-width: 768px) {
   .container_fluid_webDeveloper {
     width: 100%;

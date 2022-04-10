@@ -8,6 +8,7 @@ const learning = () => {
   return (
     <section className="section_path">
       <div className="main_container">
+        {/* 1st step  */}
         <div className="container_fluid learningPath_main">
           <div className="col_learning1">
             <h3>1 STEP</h3>
@@ -87,6 +88,8 @@ const learning = () => {
           </div>
         </div>
       </div>
+
+      {/* step 2 */}
       <div id="step2" className="container_fluid second_path_learning">
         <div className="col_learning1">
           <h3>2 STEP</h3>
@@ -128,6 +131,8 @@ const learning = () => {
           </div>
         </div>
       </div>
+
+      {/* step 3 */}
       <div className="container_fluid third_path_learning">
         <div></div>
         <div>
@@ -182,6 +187,8 @@ const learning = () => {
           </div>
         </div>
       </div>
+
+      {/* step 4 */}
       <div className="container_fluid fourth_path_learning">
         <div>
           {" "}
@@ -249,6 +256,7 @@ const learning = () => {
           </div>
         </div>
       </div>
+
       <div className="fifth_bg">
         <div className="container_fluid fifth_path_learning">
           <div>
@@ -311,6 +319,7 @@ const learning = () => {
           </div>
           <div></div>
         </div>
+
         <div className="container_fluid six_path_learning">
           <div>
             {" "}
@@ -381,6 +390,7 @@ const learning = () => {
             </div>
           </div>
         </div>
+        {/* job support start */}
         <div style={{ marginTop: "100px" }} className="container_fluid six_path_learning">
           <div>
             {" "}
@@ -422,6 +432,9 @@ const learning = () => {
                     <h4>Docker - SWARM SERVICES STACK</h4>
                   </div>
                 </div>
+                <div className="svg_path21 svg_line">
+                  <img src="https://i.ibb.co/Z8WhKDY/download-5.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -438,6 +451,9 @@ const learning = () => {
                     <p>Course</p>
                     <h4>Docker - SWARM SERVICES STACK</h4>
                   </div>
+                </div>
+                <div className="svg_path22 svg_line">
+                  <img src="https://i.ibb.co/923jT6W/path3.png" alt="" />
                 </div>
               </div>
             </div>
@@ -456,11 +472,50 @@ const learning = () => {
                     <h4>Docker - SWARM SERVICES STACK</h4>
                   </div>
                 </div>
+                <div className="svg_path23 svg_line">
+                  <img src="https://i.ibb.co/923jT6W/path3.png" alt="" />
+                </div>
+                <div className="svg_path24 svg_line">
+                  <img src="https://i.ibb.co/D5myrKp/download-1.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
         </div>
+        {/* job support second path line */}
+        <div className="container_fluid last_path_learning">
+          <div>
+            <img src="https://i.ibb.co/SNZpyy3/job.png" alt="" />
+          </div>
+          <div></div>
+          <div>
+            {" "}
+            <div>
+              {" "}
+              <div className="col_learning23">
+                <div>
+                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/n3590zh/course-image-ansible-cert.png" alt="" />
+                </div>
+                <div>
+                  <div className="item_path">
+                    <p>Course</p>
+                    <h4>Docker - SWARM SERVICES STACK</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img
+              style={{ width: "100%", height: "100%" }}
+              src="https://i.ibb.co/0CrjZKt/people-select-resume-job-vector-illustration-application-form-employment-people-select-resume-job-ve.jpg"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
+
+      {/* request course section */}
       <div className="stand_section container_fluid">
         <div>
           <h2> STAND OUT!</h2>

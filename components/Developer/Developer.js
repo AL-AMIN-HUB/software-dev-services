@@ -12,6 +12,8 @@ const Developer = () => {
       <h2 style={{ textAlign: "center", color: "rgba(0,0,0,0.7)" }} className="header_content_main">
         Your Learning Path
       </h2>
+
+      {/* use react package: react-verticalTimeLine */}
       <VerticalTimeline layout={"1 - column - left"}>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -32,7 +34,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4UNannoDegree ©</small>
+                  <small className="span">TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -42,7 +44,6 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 17 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Introducing Coding for Beginners: an HTML and CSS Online Course</h2>
@@ -73,7 +74,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4UNannoDegree ©</small>
+                  <small className="span">TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -83,7 +84,6 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 17 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>A Responsive Web Design Course: Find Out How to Create a Responsive Website</h2>
@@ -114,7 +114,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4UNannoDegree ©</small>
+                  <small className="span">TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -124,7 +124,6 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 8 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Bootstrap Tutorial: Learn to Create Dynamic Websites In a Pinch</h2>
@@ -155,7 +154,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4UNannoDegree ©</small>
+                  <small className="span">TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -165,7 +164,6 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 94 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>An Interactive JavaScript Course for Beginners</h2>
@@ -196,7 +194,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4UNannoDegree ©</small>
+                  <small className="span">TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -206,7 +204,6 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 17 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Interactive jQuery Tutorial: Learn jQuery Step-by-Step</h2>
@@ -239,7 +236,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4UNannoDegree ©</small>
+                  <small className="span">TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -249,8 +246,6 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 126 Lecture
                     </small>
                   </p>
-
-                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Comprehensive Full Stack Web Development Course for Beginners</h2>
@@ -281,7 +276,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4UNannoDegree ©</small>
+                  <small className="span">TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -291,7 +286,6 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 71 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Learn PHP Online: PHP Basics Explained in an Interactive and Fun Manner</h2>
@@ -321,7 +315,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4UNannoDegree ©</small>
+                  <small className="span">TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -331,7 +325,6 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 10 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Bootstrap and PHP Blog Tutorial Step by Step</h2>
@@ -361,7 +354,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4UNannoDegree ©</small>
+                  <small className="span">TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -371,7 +364,6 @@ const Developer = () => {
                       <AiOutlineBars className="icon_path" /> 17 Lecture
                     </small>
                   </p>
-                  <img src="https://i.ibb.co/tpQyFCC/logo.png" alt="" />
                 </div>
               </div>
               <h2>Learn WordPress Development to Create Custom Themes For Yourself and Your Clients!</h2>

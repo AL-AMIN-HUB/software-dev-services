@@ -1,6 +1,10 @@
 .section_path {
   padding: 0 0;
 }
+
+/*-----------------------------------
+styles all row 
+----------------------------------*/
 .learningPath_main {
   padding: 100px 0;
   display: grid;
@@ -44,10 +48,21 @@
   position: relative;
   z-index: -1;
 }
+.last_path_learning {
+  padding: 10px 0 100px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  position: relative;
+  z-index: -1;
+}
+// last row parent div
 .fifth_bg {
   padding: 50px 0;
   height: 100%;
 }
+
+// Main header background
 .main_container {
   background-image: url(https://i.ibb.co/WKMDwFZ/basics-b-basics.png);
   background-repeat: no-repeat;
@@ -143,6 +158,10 @@
     font-weight: bold;
   }
 }
+
+/* ----------------------------- 
+All card Design started 
+-------------------------------*/
 .col_learning2 {
   background-image: linear-gradient(to right, #529bdf, #82c3fe);
   background-size: contain;
@@ -362,7 +381,7 @@
 .col_learning21,
 .col_learning22,
 .col_learning23 {
-  background-image: linear-gradient(to bottom, #75b8f6, #5fa6e7);
+  background-image: linear-gradient(to bottom, #062530dd, #116095);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -372,6 +391,8 @@
   color: white;
   margin: 0 auto;
 }
+
+// svg path line position
 .col_svg {
   position: absolute;
   top: 110px;
@@ -500,6 +521,43 @@
   left: 45%;
   z-index: 1;
 }
+.svg_path21 {
+  position: absolute;
+  top: -32%;
+  left: 18%;
+  z-index: 1;
+}
+.svg_path21 img {
+  width: 120%;
+}
+.svg_path22 {
+  position: absolute;
+  top: 50%;
+  left: 44.7%;
+  z-index: 1;
+  img {
+    width: 65%;
+  }
+}
+.svg_path23 {
+  position: absolute;
+  top: 50%;
+  left: 70.3%;
+  z-index: 1;
+  img {
+    width: 65%;
+  }
+}
+.svg_path24 {
+  position: absolute;
+  top: 74%;
+  left: 63.3%;
+  z-index: 1;
+  img {
+    width: 130%;
+  }
+}
+
 .btn_learning_path {
   display: block;
   margin-top: -5px;
@@ -581,6 +639,9 @@
   display: block;
 }
 
+/* -----------------------------
+Responsive for mobile browsers
+-------------------------------*/
 @media only screen and (max-width: 768px) {
   .text_icon,
   .text_icon2,
@@ -598,7 +659,8 @@
   .third_path_learning,
   .fourth_path_learning,
   .fifth_path_learning,
-  .six_path_learning {
+  .six_path_learning,
+  .last_path_learning {
     padding: 30px 0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
