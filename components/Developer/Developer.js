@@ -32,7 +32,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4U ©</small>
+                  <small>TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -73,7 +73,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4U ©</small>
+                  <small>TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -114,7 +114,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4U ©</small>
+                  <small>TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -155,7 +155,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4U ©</small>
+                  <small>TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -196,7 +196,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4U ©</small>
+                  <small>TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -239,7 +239,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4U ©</small>
+                  <small>TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -281,7 +281,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4U ©</small>
+                  <small>TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -321,7 +321,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4U ©</small>
+                  <small>TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
@@ -361,7 +361,7 @@ const Developer = () => {
             <div>
               <div className="learning_path_inside">
                 <p className="learning_sub_title">
-                  <small>TS4U ©</small>
+                  <small>TS4UNannoDegree ©</small>
                 </p>
                 <div className="sub_path">
                   <p>
