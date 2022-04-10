@@ -18,7 +18,10 @@ const learning = () => {
             </p>
             <div className="icon_scroll">
               <div className="icon_learning1">
-                <AiOutlineArrowDown className="item_icon2" />
+                <a href="#step2">
+                  {" "}
+                  <AiOutlineArrowDown className="item_icon2" />
+                </a>
               </div>
               <div>
                 <p className="text_icon">
@@ -84,7 +87,7 @@ const learning = () => {
           </div>
         </div>
       </div>
-      <div className="container_fluid second_path_learning">
+      <div id="step2" className="container_fluid second_path_learning">
         <div className="col_learning1">
           <h3>2 STEP</h3>
           <h2>BEGINNERS</h2>
@@ -365,6 +368,85 @@ const learning = () => {
             <div>
               {" "}
               <div className="col_learning19">
+                <div>
+                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/n3590zh/course-image-ansible-cert.png" alt="" />
+                </div>
+                <div>
+                  <div className="item_path">
+                    <p>Course</p>
+                    <h4>Docker - SWARM SERVICES STACK</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style={{ marginTop: "100px" }} className="container_fluid six_path_learning">
+          <div>
+            {" "}
+            <div>
+              {" "}
+              <div className="col_learning20">
+                <div>
+                  <div className="icon_scroll2">
+                    <div className="icon_learning2">
+                      <AiOutlineArrowDown className="item_icon2" />
+                    </div>
+                    <div>
+                      <p className="text_icon3">
+                        scroll to <span>STEP 4</span>
+                      </p>
+                    </div>
+                  </div>
+                  <h3 style={{ color: "orange" }}>4 STEP</h3>
+                  <h2 style={{ fontSize: "32px", margin: "1em 0" }}>JOB SUPPORT</h2>
+                  <p style={{ color: "#809ECC", fontSize: "18px" }}>
+                    Stand out among the crowd with the top certifications in the IT industry. Go in-depth with these technologies with our advanced
+                    courses and mock exams that help you clear your certifications.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            {" "}
+            <div>
+              {" "}
+              <div className="col_learning21">
+                <div>
+                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/Xx3XCWG/course-image-cks.png" alt="" />
+                </div>
+                <div>
+                  <div className="item_path">
+                    <p>Course</p>
+                    <h4>Docker - SWARM SERVICES STACK</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            {" "}
+            <div>
+              {" "}
+              <div className="col_learning22">
+                <div>
+                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/Mgwnhv6/course-image-openshift.png" alt="" />
+                </div>
+                <div>
+                  <div className="item_path">
+                    <p>Course</p>
+                    <h4>Docker - SWARM SERVICES STACK</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            {" "}
+            <div>
+              {" "}
+              <div className="col_learning23">
                 <div>
                   <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/n3590zh/course-image-ansible-cert.png" alt="" />
                 </div>

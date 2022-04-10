@@ -114,7 +114,7 @@
 }
 .item_icon2 {
   font-size: 28px;
-  color: #9169f4;
+  color: #062530;
 }
 .text_icon {
   background-color: #9169f4;
@@ -126,11 +126,19 @@
   }
 }
 .text_icon2 {
-  background-color: #9169f4;
   color: white;
   padding: 5px 25px;
   border-radius: 5px;
   background-color: orange;
+  span {
+    font-weight: bold;
+  }
+}
+.text_icon3 {
+  color: white;
+  padding: 5px 25px;
+  border-radius: 5px;
+  background-color: #062530;
   span {
     font-weight: bold;
   }
@@ -351,6 +359,19 @@
   top: -54%;
   left: 75%;
 }
+.col_learning21,
+.col_learning22,
+.col_learning23 {
+  background-image: linear-gradient(to bottom, #75b8f6, #5fa6e7);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 216px;
+  height: 222px;
+  border-radius: 10px;
+  color: white;
+  margin: 0 auto;
+}
 .col_svg {
   position: absolute;
   top: 110px;
@@ -561,6 +582,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .text_icon,
+  .text_icon2,
+  .text_icon3 {
+    display: none;
+  }
   .section_path {
     padding: 0 15px;
   }
@@ -601,7 +627,10 @@
   .col_learning16,
   .col_learning17,
   .col_learning18,
-  .col_learning19 {
+  .col_learning19,
+  .col_learning21,
+  .col_learning22,
+  .col_learning23 {
     position: static;
     width: 75%;
     height: 100%;
