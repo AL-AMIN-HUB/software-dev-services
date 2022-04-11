@@ -2,42 +2,42 @@
   {
     "id": 1,
     "title": "Custom software development",
-    "img": "https://i.ibb.co/XSWmMcV/Screenshot-2-removebg-preview.png",
+    "img": "https://i.ibb.co/hB0YFp8/1-6.png",
     "desc": "We convert your idea into solid, safe, and reliable custom software with our full-cycle software development services, including:",
     "type": ["Web app solution", "Mobile app solutions", "UI / UX"]
   },
   {
     "id": 2,
     "title": "Mobile App Development Services",
-    "img": "https://i.ibb.co/GvzCnh2/Screenshot-3-removebg-preview.png",
+    "img": "https://i.ibb.co/7K2q2MF/1-5.png",
     "desc": "Our team can provide support at any stage of custom mobile app development, from creating a proof-of-concept app to an MVP:",
     "type": ["Cross-platform apps for iOS and Android", "Native apps development", "Hybrid and mobile web "]
   },
   {
     "id": 3,
     "title": "Offshore Software Development",
-    "img": " https://i.ibb.co/x859KrV/Screenshot-4-removebg-preview.png",
+    "img": " https://i.ibb.co/jZzctXX/1-4.png",
     "desc": "We convert your idea into solid, safe, and reliable custom software with our full-cycle software development services, including:",
     "type": ["On-time delivery", "Flexible pricingn", " A dedicated team"]
   },
   {
     "id": 4,
     "title": "Enterprise Software Development",
-    "img": " https://i.ibb.co/WpxXDJK/Screenshot-5-removebg-preview.png",
+    "img": " https://i.ibb.co/wJq0Gqq/1-3.png",
     "desc": "We create business software solutions to solve workflow issues that enterprises often face, including:",
     "type": ["Integration of advanced technology apps", "Production process automation", "Business process management"]
   },
   {
     "id": 5,
     "title": "IT Consulting",
-    "img": "https://i.ibb.co/KKNNYRk/Screenshot-6-removebg-preview.png",
+    "img": " https://i.ibb.co/th7nVMZ/team.png",
     "desc": "Our team covers all IT strategies and provides IT consulting services that help optimize your business and make it grow:",
     "type": ["System integration", "Data analytics", "Internet of Things"]
   },
   {
     "id": 6,
     "title": "Software Integration",
-    "img": "https://i.ibb.co/D1cPDJ0/Screenshot-7-removebg-preview.png",
+    "img": "https://i.ibb.co/s1djnTx/1-1.png",
     "desc": "We connect IT systems, microservices & migrate data, including cloud-based data, from one database to another by providing:",
     "type": ["Data integration", "API integration", "Service-oriented architecture (SOA)"]
   }

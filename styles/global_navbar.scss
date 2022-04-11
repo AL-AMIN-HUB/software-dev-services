@@ -1,7 +1,7 @@
 /* NAVBAR STYLING STARTS */
 .navbar {
   background-color: #fff;
-  color: #1e1e1f;
+  color: var(--local_bg);
   cursor: pointer;
   position: fixed;
   top: 0;
@@ -18,7 +18,7 @@
 }
 .nav-links {
   a {
-    color: #1e1e1f;
+    color: var(--local_bg);
   }
 }
 .logo {
@@ -29,13 +29,12 @@
   display: flex;
   gap: 1em;
   font-size: 18px;
-  color: #000;
+  color: var(--local_bg);
   font-weight: 500;
   align-items: center;
   li {
     &:hover {
-      color: #11a173;
-      border-radius: 5px;
+      color: var(--local_color);
       transition: 0.3s ease;
       cursor: pointer;
     }
@@ -51,7 +50,7 @@
   }
 }
 .dropdown {
-  background-color: #fff;
+  background-color: var(--white);
   padding: 1em 0;
   position: absolute;
   box-shadow: -2px -5px 10px rgba(0, 0, 0, 0.2);
@@ -63,12 +62,12 @@
         margin-top: 10px;
       }
     }
-    padding: 0.5em 1em;
+    padding: 0.7em 1em;
     width: 20em;
-    text-align: center;
-    color: #000;
+    text-align: justify;
+    color: var(--local_bg);
     &:hover {
-      background-color: #bf0a30;
+      background-color: var(--primary_bg);
       a {
         color: white;
       }
@@ -85,7 +84,7 @@
   border-radius: 5px;
   border: none;
   &:hover {
-    background-image: linear-gradient(to right, #002868, #bf0a30);
+    background-image: var(--secondary_bg);
     transition: 0.5s;
     cursor: pointer;
   }
@@ -108,11 +107,11 @@ input[type="checkbox"] {
     left: 0;
     text-align: center;
     padding: 16px 0;
-    color: #1e1e1f;
+    color: var(--local_bg);
     li {
       &:hover {
         display: inline-block;
-        color: #11a173;
+        color: var(--local_color);
         transition: 0.3s ease;
       }
       + {
@@ -155,7 +154,7 @@ input[type="checkbox"] {
     border-radius: 5px;
     border: none;
     &:hover {
-      background-image: linear-gradient(to right, #002868, #bf0a30);
+      background-image: var(--main_bg);
       transition: 0.5s;
       cursor: pointer;
     }

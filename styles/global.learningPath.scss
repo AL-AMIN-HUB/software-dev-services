@@ -129,7 +129,7 @@ styles all row
 }
 .item_icon2 {
   font-size: 28px;
-  color: #062530;
+  color: var(--primary_color);
 }
 .text_icon {
   background-color: #9169f4;
@@ -153,7 +153,7 @@ styles all row
   color: white;
   padding: 5px 25px;
   border-radius: 5px;
-  background-color: #062530;
+  background-color: var(--primary_bg);
   span {
     font-weight: bold;
   }

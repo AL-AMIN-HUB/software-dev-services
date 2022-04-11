@@ -91,7 +91,7 @@
 //
 /* From cssbuttons.io */
 .card {
-  --color: #11a173;
+  color: var(--local_color);
   position: relative;
   overflow: hidden;
   transition: color 0.5s;
@@ -100,7 +100,7 @@
     content: "";
     position: absolute;
     z-index: -1;
-    background-image: linear-gradient(to right, #002868, #bf0a31e4);
+    background-image: var(--secondary_bg);
     height: 100%;
     width: 100%;
     top: 100%;

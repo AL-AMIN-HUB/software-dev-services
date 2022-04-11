@@ -6,7 +6,7 @@ const Services = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch("https://mocki.io/v1/06240b23-6e8b-48be-ad9a-47143b394903")
+    fetch("/services.json")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);

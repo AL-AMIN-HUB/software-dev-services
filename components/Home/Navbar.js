@@ -49,10 +49,21 @@ const Navbar = () => {
               </label>
 
               <div className="menu">
-                <li>
+                <li className="services">
                   <a href="/">WHO WE ARE</a>
-                </li>
 
+                  <ul className="dropdown">
+                    <li>
+                      <a href="/about">About Us</a>
+                    </li>
+                    <li>
+                      <a href="/web_developer">Web Developer</a>
+                    </li>
+                    <li>
+                      <a href="/">Dropdown 2</a>
+                    </li>
+                  </ul>
+                </li>
                 <li className="services">
                   <a href="/">OUR SERVICES</a>
 

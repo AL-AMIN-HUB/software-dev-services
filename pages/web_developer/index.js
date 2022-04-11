@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import Developer from "../components/Developer/Developer";
+import Developer from "../../components/Developer/Developer";
 import { ImTree } from "react-icons/im";
 import { GiDeathZone } from "react-icons/gi";
 import { BsBagPlus } from "react-icons/bs";

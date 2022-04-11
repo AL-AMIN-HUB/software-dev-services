@@ -27,14 +27,14 @@
 .contact_btn {
   padding: 15px 45px;
   font-size: 18px;
-  background-image: linear-gradient(to right, #002868, #bf0a30);
+  background-image: var(--secondary_bg);
   border: none;
   border-radius: 5px;
   box-shadow: -2px -2px 15px rgba(255, 255, 255, 0.2);
   color: white;
   transition: 0.7s;
   &:hover {
-    background-image: linear-gradient(to left, #002868, #bf0a30);
+    background-image: var(--main_bg);
     transform: scale(0.8);
     cursor: pointer;
   }
