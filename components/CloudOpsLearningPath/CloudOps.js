@@ -4,7 +4,7 @@ import React from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
-const learning = () => {
+const LearningPath = () => {
   return (
     <section className="section_path">
       <div className="main_container">
@@ -52,18 +52,7 @@ const learning = () => {
             </button>
             <div>
               <div className="img_main">
-                <img src="https://i.ibb.co/hBLz7XR/basic-top.png" alt="" />
-              </div>
-              <div className="item_desc">
-                <div>
-                  <p>Course</p>
-                  <h2>
-                    DevOps Pre- <br /> Requisites
-                  </h2>
-                </div>
-                <div>
-                  <BsArrowRightShort className="item_icon" />
-                </div>
+                <img style={{ width: "100%" }} src="https://i.ibb.co/ZBgjmkM/1641821040165-System-Engineer-removebg-preview.png" alt="" />
               </div>
             </div>
           </div>
@@ -98,7 +87,7 @@ const learning = () => {
         </div>
         <div className="col_learning5">
           <div>
-            <img className="img_path2" src="https://i.ibb.co/Qp2z6jx/git-course-bg.png" alt="" />
+            <img className="img_path2" src="https://i.ibb.co/1R34hH9/Cloud-Ops-Program-Module-Card-216155-10.png" alt="" />
           </div>
           <div>
             <div className="item_path">
@@ -121,7 +110,7 @@ const learning = () => {
         </div>
         <div className="col_learning6">
           <div>
-            <img style={{ width: "100%" }} className="img_path2" src="https://i.ibb.co/X3kmCGJ/SHELL-1.png" alt="" />
+            <img style={{ width: "100%" }} className="img_path2" src="https://i.ibb.co/mygrv0H/Cloud-Ops-Program-Module-Card-216155-12.png" alt="" />
           </div>
           <div>
             <div className="item_path">
@@ -139,7 +128,7 @@ const learning = () => {
           {" "}
           <div className="col_learning7">
             <div>
-              <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/PTbtx16/course-image-docker-2.png" alt="" />
+              <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/9gnQLym/Docker.png" alt="" />
             </div>
             <div>
               <div className="item_path">
@@ -159,12 +148,17 @@ const learning = () => {
           {" "}
           <div className="col_learning8">
             <div>
-              <img style={{ width: "100%" }} className="img_path8" src="https://i.ibb.co/ckLHZd3/course-image-ansible.png" alt="" />
+              <img
+                style={{ width: "100%" }}
+                className="img_path8"
+                src="https://i.ibb.co/bWMWVkq/Cloud-Ops-Program-Module-Card-216155-11.png"
+                alt=""
+              />
             </div>
             <div>
               <div className="item_path">
                 <p>Course</p>
-                <h4>Ansible for the Absolute Beginners</h4>
+                <h4>Python for the Absolute Beginners</h4>
               </div>
             </div>
             <div className="path_svg8 svg_line">
@@ -176,12 +170,12 @@ const learning = () => {
           {" "}
           <div className="col_learning9">
             <div>
-              <img style={{ width: "100%" }} className="img_path9" src="https://i.ibb.co/ggnms17/course-image-chef.png" alt="" />
+              <img style={{ width: "100%" }} className="img_path9" src="https://i.ibb.co/6gMbfmg/Web-Sever.png" alt="" />
             </div>
             <div>
               <div className="item_path">
                 <p>Course</p>
-                <h4>Chef for the Absolute Beginners</h4>
+                <h4>Web Server for the Absolute Beginners</h4>
               </div>
             </div>
           </div>
@@ -194,7 +188,7 @@ const learning = () => {
           {" "}
           <div className="col_learning10">
             <div>
-              <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/PTbtx16/course-image-docker-2.png" alt="" />
+              <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/VNmN89S/Docker-Swam.png" alt="" />
             </div>
             <div>
               <div className="item_path">
@@ -211,7 +205,12 @@ const learning = () => {
           {" "}
           <div className="col_learning11">
             <div>
-              <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/PTbtx16/course-image-docker-2.png" alt="" />
+              <img
+                style={{ width: "100%" }}
+                className="img_path7"
+                src="https://i.ibb.co/BfLqGpL/GITLAB-CICD-WITH-DEPLOY-ON-S3-AND-KUBERNETES.png"
+                alt=""
+              />
             </div>
             <div>
               <div className="item_path">
@@ -283,7 +282,7 @@ const learning = () => {
               {" "}
               <div className="col_learning14">
                 <div>
-                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/Gs4Xwr9/course-image-cka.png" alt="" />
+                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/xf4Rs0y/Kubernetes.png" alt="" />
                 </div>
                 <div>
                   <div className="item_path">
@@ -303,7 +302,7 @@ const learning = () => {
               {" "}
               <div className="col_learning15">
                 <div>
-                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/XFZn7rS/course-image-ckad.png" alt="" />
+                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/gTY54rd/Self-Managed-Kubernetes.png" alt="" />
                 </div>
                 <div>
                   <div className="item_path">
@@ -344,7 +343,7 @@ const learning = () => {
               {" "}
               <div className="col_learning17">
                 <div>
-                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/Xx3XCWG/course-image-cks.png" alt="" />
+                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/jkB4QJM/DNS-for-Kubernetes.png" alt="" />
                 </div>
                 <div>
                   <div className="item_path">
@@ -424,7 +423,12 @@ const learning = () => {
               {" "}
               <div className="col_learning21">
                 <div>
-                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/Xx3XCWG/course-image-cks.png" alt="" />
+                  <img
+                    style={{ width: "100%" }}
+                    className="img_path7"
+                    src="https://i.ibb.co/1R34hH9/Cloud-Ops-Program-Module-Card-216155-10.png"
+                    alt=""
+                  />
                 </div>
                 <div>
                   <div className="item_path">
@@ -444,7 +448,12 @@ const learning = () => {
               {" "}
               <div className="col_learning22">
                 <div>
-                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/Mgwnhv6/course-image-openshift.png" alt="" />
+                  <img
+                    style={{ width: "100%" }}
+                    className="img_path7"
+                    src="https://i.ibb.co/bWMWVkq/Cloud-Ops-Program-Module-Card-216155-11.png"
+                    alt=""
+                  />
                 </div>
                 <div>
                   <div className="item_path">
@@ -464,7 +473,12 @@ const learning = () => {
               {" "}
               <div className="col_learning23">
                 <div>
-                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/n3590zh/course-image-ansible-cert.png" alt="" />
+                  <img
+                    style={{ width: "100%" }}
+                    className="img_path7"
+                    src="https://i.ibb.co/9vh74SN/Cloud-Ops-Program-Module-Card-216155-9.png"
+                    alt=""
+                  />
                 </div>
                 <div>
                   <div className="item_path">
@@ -494,7 +508,12 @@ const learning = () => {
               {" "}
               <div className="col_learning23">
                 <div>
-                  <img style={{ width: "100%" }} className="img_path7" src="https://i.ibb.co/n3590zh/course-image-ansible-cert.png" alt="" />
+                  <img
+                    style={{ width: "100%" }}
+                    className="img_path7"
+                    src="https://i.ibb.co/yV1014x/Cloud-Ops-Program-Module-Card-216155-8.png"
+                    alt=""
+                  />
                 </div>
                 <div>
                   <div className="item_path">
@@ -535,4 +554,4 @@ const learning = () => {
   );
 };
 
-export default learning;
+export default LearningPath;

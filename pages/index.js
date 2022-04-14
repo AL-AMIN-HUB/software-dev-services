@@ -5,7 +5,7 @@ import ContactBanner from "../components/Home/ContactBanner";
 import Facilities from "../components/Home/Facilities";
 import Footer from "../components/Home/Footer";
 import Navbar from "../components/Home/Navbar";
-import Platform from "../components/Home/Platform";
+// import Platform from "../components/Home/Platform";
 import Services from "../components/Home/Services";
 import SoftDevCycle from "../components/Home/SoftDevCycle";
 import Testimonials from "../components/Home/Testimonials";
@@ -25,7 +25,7 @@ export default function Home() {
       </header>
       <main>
         <Services />
-        <Platform />
+        {/* <Platform /> */}
         <Facilities />
         <ContactBanner />
         <SoftDevCycle />

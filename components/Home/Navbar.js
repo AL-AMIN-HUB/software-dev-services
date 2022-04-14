@@ -57,7 +57,7 @@ const Navbar = () => {
                       <a href="/about">About Us</a>
                     </li>
                     <li>
-                      <a href="/web_developer">Web Developer</a>
+                      <a href="/programs">Programs</a>
                     </li>
                     <li>
                       <a href="/">Dropdown 2</a>
@@ -69,13 +69,13 @@ const Navbar = () => {
 
                   <ul className="dropdown">
                     <li>
-                      <a href="/learning-path">Learning Path</a>
+                      <a href="/cloudops-path">CloudOps Path</a>
                     </li>
                     <li>
                       <a href="/web_developer">Web Developer</a>
                     </li>
                     <li>
-                      <a href="/">Dropdown 2</a>
+                      <a href="/slider">Slider</a>
                     </li>
                     <li>
                       <a href="/">Dropdown 3</a>

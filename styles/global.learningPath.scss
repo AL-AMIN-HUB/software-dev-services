@@ -163,7 +163,7 @@ styles all row
 All card Design started 
 -------------------------------*/
 .col_learning2 {
-  background-image: linear-gradient(to right, #529bdf, #82c3fe);
+  background-image: linear-gradient(to right, #062530, #1076ba);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -173,8 +173,20 @@ All card Design started
   color: white;
   margin: 0 auto;
 }
+.col_learning3 {
+  background-image: linear-gradient(to right, rgb(60, 255, 0, 0.5), #062530);
+  padding: 1rem 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  width: 280px;
+  border-radius: 10px;
+  color: white;
+  margin: 0 auto;
+}
 .col_learning5 {
-  background-image: linear-gradient(to right, #529bdf, #82c3fe);
+  background-image: linear-gradient(to right, #75a2cc, #82c3fe);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -381,7 +393,7 @@ All card Design started
 .col_learning21,
 .col_learning22,
 .col_learning23 {
-  background-image: linear-gradient(to bottom, #062530dd, #116095);
+  background-image: linear-gradient(to left, #062539, #116095);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -421,18 +433,6 @@ All card Design started
     width: 100%;
     margin-top: -20%;
   }
-}
-.col_learning3 {
-  background-image: linear-gradient(to right, #529bdf, #82c3fe);
-  padding: 1rem 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  position: relative;
-  width: 280px;
-  border-radius: 10px;
-  color: white;
-  margin: 0 auto;
 }
 .path_5 {
   position: relative;
