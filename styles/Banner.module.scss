@@ -1,5 +1,5 @@
 .main_banner {
-  background-image: url(https://i.ibb.co/9ZF9TGr/Team-dark-s-746fdeo4vksr61htsedzm5x1n3p02egrcghogpoods4-jpg.webp);
+  background-image: url(https://i.ibb.co/tYMPKmn/software-technology.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -7,23 +7,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
+
 .grid_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 160px;
   align-items: center;
 }
+
 .head_content {
   font-size: 38px;
   margin: 0 0 32px;
 }
+
 .form_container {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(https://i.ibb.co/6Ww7NNC/85835-call-center-support.gif);
+  background-size: cover;
+  border-radius: 30px;
   padding: 3rem;
+  height: 500px;
+
+
+  @media screen and (max-width: 912px) {
+
+    height: 400px;
+    width: 100%;
+
+  }
+
   h2 {
     text-align: center;
   }
+
   input {
     width: 100%;
     margin: 5px 0;
@@ -31,6 +48,7 @@
     font-size: 18px;
     border-radius: 5px;
   }
+
   textarea {
     width: 100%;
     margin: 5px 0;
@@ -39,14 +57,17 @@
     border-radius: 5px;
   }
 }
+
 .input {
   outline: none !important;
   border: none;
 }
+
 .textarea {
   outline: none !important;
   border: none;
 }
+
 .form_button {
   background-image: var(--secondary_bg);
   padding: 18px 40px;
@@ -56,20 +77,23 @@
   width: 100%;
   border-radius: 5px;
   font-weight: bold;
+
   &:hover {
     background-image: var(--main_bg);
     transition: 0.5s;
     cursor: pointer;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .main_banner {
-    background-image: url(https://i.ibb.co/9ZF9TGr/Team-dark-s-746fdeo4vksr61htsedzm5x1n3p02egrcghogpoods4-jpg.webp);
+    background-image: url(https://i.ibb.co/tYMPKmn/software-technology.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100%;
   }
+
   .grid_container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -77,14 +101,17 @@
     width: 90%;
     margin: 20px 0;
   }
+
   .head_content {
     font-size: 25px;
     margin: 0 0 32px;
   }
+
   .form_container {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 1rem;
   }
+
   .first_content {
     text-align: center;
   }

@@ -27,7 +27,7 @@ export default function Home() {
         <Services />
         {/* <Platform /> */}
         <Facilities />
-        <ContactBanner />
+        {/* <ContactBanner /> */}
         <SoftDevCycle />
         <ChooseUs />
         <Testimonials />

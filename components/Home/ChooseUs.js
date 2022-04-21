@@ -9,7 +9,7 @@ const ChooseUs = () => {
         <div className={`${styles.first_content} `}>
           <h2 className={`${styles.head_content}`}>Why should you choose us as your Software development company?</h2>
           <p className={`${styles.text_content}`}>
-            VironIT is a custom software development company with 15 years of experience. Our company is also a <br /> member of High Tech Park, which
+            MSD Services is a custom software development company with 15 years of experience. Our company is also a <br /> member of High Tech Park, which
             allows IT entities to take advantage of lower costs and less stringent <br /> regulations inside the country.
           </p>
         </div>
@@ -39,12 +39,12 @@ const ChooseUs = () => {
               <p>years in development</p>
             </div>
           </div>
-          <div className={styles.grid_item}>
+          {/*  <div className={styles.grid_item}>
             <div>
               <img src="https://i.ibb.co/cczWP2G/1-1.webp" alt="" />
             </div>
             <div className={styles.grid_footer}>
-              <p>VironIT is in the Top1 outsourcing software development companies according to desighrush.</p>
+              <p>MSD Services is in the Top1 outsourcing software development companies according to desighrush.</p>
             </div>
           </div>
           <div className={styles.grid_item}>
@@ -62,7 +62,7 @@ const ChooseUs = () => {
             <div className={styles.grid_footer}>
               <p>Feedspot.com included our corporate blog in its Top 50 software development blogs in the world.</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

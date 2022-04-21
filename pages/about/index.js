@@ -14,7 +14,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.about_head_img}>
-          <img src="https://i.ibb.co/PcG22vV/pimgpsh-mediumsize-distr-1ycwp6uhrzepsf6wampao78zf3pr0778juvleufdxjvw-jpg.webp" alt="" />
+          <img src="" alt="" />
         </div>
         <div className={styles.about_head_text}>
           <h2>Backstory</h2>

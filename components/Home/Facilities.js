@@ -14,7 +14,7 @@ const Facilities = () => {
       <div className={`${styles.first_content} `}>
         <h2 className={`${styles.head_content}`}>We Provide Our IT Services to Various Industries</h2>
         <p className={`${styles.text_content}`}>
-          VironIT Software Development Company has completed projects of varying complexities within a variety of <br /> industries. We are
+          MSD Services Software Development Company has completed projects of varying complexities within a variety of <br /> industries. We are
           experienced in media and entertainment, game development, medicine, the public sector,
           <br /> banking, gambling, and more.
         </p>

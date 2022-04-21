@@ -39,7 +39,7 @@ const Navbar = () => {
           <div className="container_fluid navbar_main">
             <div className="logo">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="https://i.ibb.co/3vH012W/Screenshot-1-removebg-preview.png" alt="" />
+              <img style={{ width: "150px" }} src="https://i.ibb.co/HNyrC6g/th-removebg-preview.png" alt="" />
             </div>
 
             <ul className="nav-links">
@@ -50,45 +50,45 @@ const Navbar = () => {
 
               <div className="menu">
                 <li className="services">
-                  <a href="/">WHO WE ARE</a>
+                  <a href="/">Who We Are</a>
 
                   <ul className="dropdown">
                     <li>
                       <a href="/about">About Us</a>
                     </li>
                     <li>
-                      <a href="/programs">Programs</a>
+                      <a href="/contact">Contact Us</a>
                     </li>
                     <li>
-                      <a href="/">Dropdown 2</a>
+                      <a href="/success">Success Story</a>
                     </li>
                   </ul>
                 </li>
                 <li className="services">
-                  <a href="/">OUR SERVICES</a>
+                  <a href="/">Our Services</a>
 
                   <ul className="dropdown">
                     <li>
-                      <a href="/cloudops-path">CloudOps Path</a>
+                      <a href="/">Software Quality Automation Engineer</a>
                     </li>
                     <li>
-                      <a href="/web_developer">Web Developer</a>
+                      <a href="/">CloudOps Engineer</a>
                     </li>
                     <li>
-                      <a href="/slider">Slider</a>
+                      <a href="/">Product Owner</a>
                     </li>
                     <li>
-                      <a href="/">Dropdown 3</a>
+                      <a href="/">MERN Full-Stack Software Engineer</a>
                     </li>
                     <li>
-                      <a href="/">Dropdown 4</a>
+                      <a href="/">Python Software Engineer</a>
                     </li>
                   </ul>
                 </li>
                 <li>
                   <a href="/">PORTFOLIO</a>
                 </li>
-                <li className="services">
+                {/*  <li className="services">
                   <a href="/">TECHNOLOGIES</a>
 
                   <ul className="dropdown">
@@ -108,8 +108,8 @@ const Navbar = () => {
                       <a href="/">Dropdown 4</a>
                     </li>
                   </ul>
-                </li>
-                <li className="services">
+                </li> */}
+                {/* <li className="services">
                   <a href="/">BLOG</a>
 
                   <ul className="dropdown">
@@ -129,7 +129,7 @@ const Navbar = () => {
                       <a href="/">Dropdown 4</a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <button className="primary_bg btn_navbar">HIRE US</button>
                 </li>

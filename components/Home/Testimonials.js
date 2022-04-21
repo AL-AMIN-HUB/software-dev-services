@@ -3,16 +3,16 @@ import React from "react";
 import styles from "../../styles/Testimonials.module.scss";
 
 const Testimonials = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
+  /*  const handleSubmit = (e) => {
+     e.preventDefault();
+   }; */
 
   return (
     <div>
       <section className={`${styles.container_testimonials} container_fluid`}>
         <div className={`${styles.testimonials_grid}`}>
           <div className={styles.form_main}>
-            <div className={`${styles.form_container}`}>
+            {/*   <div className={`${styles.form_container}`}>
               <h2 className={`${styles.head_content}`}>Tell us about Your project</h2>
               <form action="#" onSubmit={handleSubmit}>
                 <div>
@@ -53,7 +53,7 @@ const Testimonials = () => {
                   Get a FREE Quote
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
           <div style={{ textAlign: "center" }}>
             <h2 className={`${styles.head_content2}`}>Testimonials</h2>
@@ -64,7 +64,7 @@ const Testimonials = () => {
                 </div>
                 <p>
                   We needed to create a proof of concept of a Blockchain-based software for our investor and to speed up the development we placed
-                  order at VironIT. We liked the performance and communication level at all steps. I think I’ll get back to you after we’ve get
+                  order at MSD Services. We liked the performance and communication level at all steps. I think I’ll get back to you after we’ve get
                   funded. Thanks.
                 </p>
                 <span>– Jules MJD Maessen, Founder & Sales at VERO Visuals</span>

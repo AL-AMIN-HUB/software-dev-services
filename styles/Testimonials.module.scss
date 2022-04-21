@@ -1,13 +1,15 @@
 .container_testimonials {
   padding: 100px 0;
 }
+
 .form_main {
-  background-image: url(https://i.ibb.co/pPXC0MC/main-bg-71ag7gbjmwskdmyn98g1f0w4x8it4eqt2m8b51igasw-jpg.webp);
+  background-image: url(https://i.ibb.co/DYYhc10/man-working-on-website-script.gif);
   background-position: center;
   background-size: cover;
   padding: 50px;
   height: 100%;
 }
+
 .testimonials_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -20,51 +22,67 @@
   margin: 0 0 32px;
   color: white;
 }
+
 .head_content2 {
   font-size: 38px;
   margin: 0 0 32px;
   color: black;
 }
+
 .form_container {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 3rem;
+  border-radius: 30px;
+
   h2 {
     text-align: center;
   }
+
   input {
     width: 95%;
     margin: 5px 0;
     padding: 18px;
     font-size: 18px;
+    border-radius: 10px;
   }
+
   textarea {
     width: 95%;
     margin: 5px 0;
     padding: 18px;
     font-size: 18px;
+    border-radius: 10px;
+
   }
+
   select {
-    width: 95%;
+    width: 97%;
     margin: 5px 0;
     padding: 18px;
     font-size: 18px;
     color: grey;
+    border-radius: 10px;
+
   }
 }
+
 .input_doable {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 97.5%;
 }
+
 .input {
   outline: none !important;
   border: none;
 }
+
 .textarea {
   outline: none !important;
   border: none;
 }
+
 .form_button {
   background-image: var(--secondary_bg);
   padding: 18px 40px;
@@ -74,45 +92,55 @@
   width: 95%;
   border-radius: 5px;
   font-weight: bold;
+
   &:hover {
     background-image: var(--main_bg);
     transition: 0.5s;
     cursor: pointer;
   }
 }
+
 .testimonials_card {
   box-shadow: -2px 3px 15px rgba(0, 0, 0, 0.1);
   padding: 100px 20px;
+  border-radius: 10px;
 
   p {
     margin: 15px 0;
   }
+
   p::after {
     content: " '' ";
   }
+
   p::before {
     content: " '' ";
   }
 }
+
 @media only screen and (max-width: 768px) {
   .head_content {
     font-size: 25px;
     margin: 0 0 32px;
   }
+
   .form_container {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 1rem;
   }
+
   .testimonials_grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
   }
+
   .head_content2 {
     font-size: 25px;
     margin: 0 0 32px;
     color: black;
   }
+
   .testimonials_card {
     box-shadow: -2px 3px 15px rgba(0, 0, 0, 0.1);
     padding: 100px 20px;
@@ -121,9 +149,11 @@
     p {
       margin: 15px 0;
     }
+
     p::after {
       content: " '' ";
     }
+
     p::before {
       content: " '' ";
     }
