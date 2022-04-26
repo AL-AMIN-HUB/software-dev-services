@@ -82,6 +82,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a href="/">Python Software Engineer</a>
+
                     </li>
                   </ul>
                 </li>
